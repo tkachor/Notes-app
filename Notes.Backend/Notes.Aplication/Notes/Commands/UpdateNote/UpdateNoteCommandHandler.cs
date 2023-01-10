@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
+using Notes.Aplication.Common.Exceptions;
 using Notes.Aplication.Interfaces;
 using Notes.Domain;
 
@@ -32,4 +33,5 @@ namespace Notes.Aplication.Notes.Commands.UpdateNote
 
             return Unit.Value;
         }
+    } 
 }

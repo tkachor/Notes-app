@@ -18,7 +18,7 @@ namespace Notes.Aplication.Notes.Commands.CreateNote
             var note = new Note
             {
                 UserId = request.UserId,
-                Titles = request.Title,
+                Title = request.Title,
                 Details = request.Details,
                 Id = Guid.NewGuid(),
                 CreationDate = DateTime.Now,
