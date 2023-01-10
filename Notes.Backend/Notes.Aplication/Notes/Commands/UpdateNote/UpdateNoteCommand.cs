@@ -2,7 +2,7 @@
 
 namespace Notes.Aplication.Notes.Commands.UpdateNote
 {
-    internal class UpdateNoteCommand : IRequest
+    public class UpdateNoteCommand : IRequest
     {
         public Guid UserId { get; set; }
         public Guid Id { get; set; }
